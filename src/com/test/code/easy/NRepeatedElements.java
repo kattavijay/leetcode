@@ -30,7 +30,7 @@ public class NRepeatedElements {
 		Set<Integer> keySet = new HashSet<Integer>();
 		keySet = ht.keySet();
 		for (int oneValue : keySet) {
-			if (n == ht.get(oneValue)) {
+			if (n == ht.get(oneValue)) { 
 				System.out.println(oneValue);
 			}
 		}
