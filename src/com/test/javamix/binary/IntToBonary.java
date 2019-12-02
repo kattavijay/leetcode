@@ -5,7 +5,7 @@ public class IntToBonary {
 	public static void main(String[] args) {
 
 		String s = "";
-		int n = 4;
+		int n = 22;
 
 		while (n > 0) {
 
