@@ -31,3 +31,11 @@ public class ShortestUnsortedSubarray {
 	}
 
 }
+
+
+/* 
+
+Time complexity : O(nlogn)
+space complexity : O(n)
+
+*/
