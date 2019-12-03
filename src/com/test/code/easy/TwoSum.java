@@ -7,10 +7,11 @@ public class TwoSum {
 		
 		for(int i=0;i<nums.length;i++)
 		{
-			int j=0;
+			for (int j = i + 1; j < nums.length; j++) {
 			if(nums[j]==target-nums[i])
 			{
-				return new int[]{nums[j],nums[i]};
+				return new int[]{i,j};
+			}
 			}
 		}
 		
